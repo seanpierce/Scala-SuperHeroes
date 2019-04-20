@@ -1,4 +1,4 @@
-class SuperHero(val name: String, val realName: String, val birthplace: String) {
+class SuperHero(val name: String, val realName: String, val birthPlace: String) {
   println("A new hero has been created: " + name)
 
   def this(name: String) {
@@ -10,7 +10,7 @@ class SuperHero(val name: String, val realName: String, val birthplace: String) 
   }
 
   def details() = {
-    println(name + " was born in " + birthplace)
+    println(name + " was born in " + birthPlace)
   }
 
   var heroAge = 0

@@ -27,5 +27,9 @@ object SuperHeroes {
 
     val hero = findHero(PowerStats(97, 78))
     println(hero)
+
+    val loki = new Villain("Loki", "Asgard")
+    loki.details()
+    loki.age = 26
   }
 }
